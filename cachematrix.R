@@ -40,3 +40,16 @@ cacheSolve <- function(x, ...) {
     x$setinverse(m)
     m
 }
+
+
+# Testing the functions created
+# tmpMatrix<-matrix(data=rexp(200, rate=0.1), nrow=10, ncol=10)
+# tmpMatrix
+# myMatrix<-makeCacheMatrix()
+# myMatrix$set(tmpMatrix)
+# myMatrix$get()
+## This should calculate the inverse for the first time and cache it
+# cacheSolve(myMatrix)
+## This would get the cached value of inverse
+# cacheSolve(myMatrix)
+
